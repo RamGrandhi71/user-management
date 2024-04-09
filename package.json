@@ -4,7 +4,8 @@
   "description": "A user management backend system is a software component responsible for handling user-related operations in an application. It typically includes functionalities such as user registration, authentication, authorization, profile management, and user data storage. This system interacts with databases, handles user requests via APIs, and ensures security and integrity of user information.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
